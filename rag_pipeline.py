@@ -25,12 +25,12 @@ def call_llm(prompt_text):
     'temperature':0
   }
   response=requests.post(GROQ_URL,headers=headers,json=payload)
-data=response.json()
-#groq gives the answer inside choices[0].message.content, same as openai format
-if 'choices' not in data:
-  raise Exception('groq api error: '+str(data))
-answer=data['choices'][0]['message']['content']
-return answer
+  data=response.json()
+  #groq gives the answer inside choices[0].message.content, same as openai format
+  if 'choices' not in data:
+    raise Exception('groq api error: '+str(data))
+  answer=data['choices'][0]['message']['content']
+  return answer
 
 def get_answer(question,index,chunks,model,top_k=4):
   matched_chunks=search_index(question,index,chunks,model,top_k)
