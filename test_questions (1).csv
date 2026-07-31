@@ -1,0 +1,18 @@
+question,expected_source,retrieved_source,correct
+What is the annual paid leave for employees?,company_policy.pdf page 2,company_policy.pdf page 2,yes
+How many days in advance should leave be requested?,company_policy.pdf page 2,company_policy.pdf page 2,yes
+How many sick leave days are allowed without prior approval?,company_policy.pdf page 2,company_policy.pdf page 2,yes
+What happens to unused leave at the end of the year?,company_policy.pdf page 2,company_policy.pdf page 2,yes
+What is prohibited under the code of conduct?,company_policy.pdf page 3,company_policy.pdf page 3,yes
+Who should code of conduct violations be reported to?,company_policy.pdf page 3,company_policy.pdf page 3,yes
+Within how many days can travel expenses be reimbursed?,company_policy.pdf page 4,company_policy.pdf page 4,yes
+What approval is needed for reimbursement above 5000 rupees?,company_policy.pdf page 4,company_policy.pdf page 4,yes
+What are the standard working hours?,employee_handbook.pdf page 2,employee_handbook.pdf page 2,yes
+How is attendance calculated?,employee_handbook.pdf page 3,employee_handbook.pdf page 3,yes
+What counts as a late arrival?,employee_handbook.pdf page 3,employee_handbook.pdf page 3,yes
+What happens after three late arrivals in a month?,employee_handbook.pdf page 3,employee_handbook.pdf page 3,yes
+How do employees apply for leave through the HR portal?,employee_handbook.pdf page 4,employee_handbook.pdf page 4,yes
+How can emergency leave be applied for?,employee_handbook.pdf page 4,employee_handbook.pdf page 4,yes
+Who is the company CEO?,Not available,Not available - correctly refused,yes
+What is the office address of the company?,Not available,Not available - correctly refused,yes
+What is the maternity leave policy?,Not available,Not available - correctly refused,yes
